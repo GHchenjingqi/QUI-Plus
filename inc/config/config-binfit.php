@@ -1,0 +1,97 @@
+<?php
+	//优化配置
+	$setBit = array(
+	  array(
+	      'id'     => 'set-WordPressUpDateNone',
+	      'type'   => 'switcher',
+	      'title'  => '屏蔽WordPress自动更新',
+	      'before' => '建议关闭 WordPress 后台和自动更新功能',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array(
+	      'id'     => 'set-headCodeNone',
+	      'type'   => 'switcher',
+	      'title'  => '移除Head无效代码',
+	      'before' => '移除 WordPress Head中沉余代码',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array( 
+	      'id'    => 'set-gudengbao', 
+	      'type'  => 'switcher', 
+	      'title' => '古登堡编辑器', 
+	      'before' => '是否关闭古登堡编辑器',
+	      'text_on'    => '启用',
+  		  'text_off'   => '禁用',
+      ),
+      array(
+	      'id'     => 'set-post-revisions',
+	      'type'   => 'switcher',
+	      'title'  => '屏蔽文章修订',
+	      'before' => '屏蔽文章修订功能，优化post表数据',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array(
+	      'id'     => 'set-adminBar',
+	      'type'   => 'switcher',
+	      'title'  => '移除顶部工具条',
+	      'before' => '前屏顶部黑色工具条',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	 
+	  array(
+	      'id'     => 'set-RESTNone',
+	      'type'   => 'switcher',
+	      'title'  => '屏蔽 REST API接口',
+	      'before' => 'REST API接口用于给软件提供接口服务',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array(
+	      'id'     => 'set-XMLRPCNone',
+	      'type'   => 'switcher',
+	      'title'  => '关闭 XML-RPC',
+	      'before' => '禁用 XML-RPC接口,防止XML注入',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array(
+	      'id'     => 'set-pingbackNone',
+	      'type'   => 'switcher',
+	      'title'  => '关闭 pingback',
+	      'before' => '彻底关闭pingback功能',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array(
+	      'id'     => 'set-EmojiNone',
+	      'type'   => 'switcher',
+	      'title'  => '屏蔽WordPress表情',
+	      'before' => '国内无法正常访问WordPress自带表情',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  array(
+	      'id'     => 'set-EmbedNone',
+	      'type'   => 'switcher',
+	      'title'  => '屏蔽文章Embed',
+	      'before' => '屏蔽WordPress在footer自动嵌入文章',
+	      'text_on'    => '启用',
+  		  'text_off'   => '关闭',
+  		  'default' => false,
+	  ),
+	  
+	  
+    );
+?>

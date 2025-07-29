@@ -1,0 +1,1 @@
+<?php get_template_part( QUI_ThemePath().'/footer' );?>
